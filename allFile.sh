@@ -21,17 +21,17 @@ else
 tempbarch="develop"
 fi
 
-currentTag = "1.3.5"
+currentTag = 1.3.5
 
 git pull origin $tempbarch
 
 git push origin $tempbarch
 
-git push origin --delete tag $currentTag
+git push origin --delete tag 1.3.5
 
-git tag -d $currentTag
+git tag -d 1.3.5
 
-git tag $currentTag
+git tag "1.3.5"
 
 git push --tag
 
