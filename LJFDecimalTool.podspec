@@ -22,6 +22,8 @@ s.source       = { :git => "https://github.com/lijifeng123/DecimalTool.git", :ta
 s.source_files  = "DecimalTool/CBCurrencyTermsClass/*.{h,m}"
 #资源文件
 s.resources          = "DecimalTool/CBCurrencyResourse/*.{png,bundle,jpg}"
+s.dependency 'SDWebImage'
+s.dependency 'AFNetworking'
 #是否支持ARC
 s.requires_arc = true
 
