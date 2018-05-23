@@ -15,6 +15,7 @@
 		0103B0732095B31800F4B61B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103B0722095B31800F4B61B /* main.m */; };
 		0103B07D2095B31800F4B61B /* DecimalToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103B07C2095B31800F4B61B /* DecimalToolUITests.m */; };
 		0103B08A2095B34400F4B61B /* CBCurrencyTermsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103B0882095B34400F4B61B /* CBCurrencyTermsClass.m */; };
+		012A8ED520B518DC00B094F4 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012A8ED420B518DC00B094F4 /* dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		0103B07E2095B31800F4B61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0103B0882095B34400F4B61B /* CBCurrencyTermsClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCurrencyTermsClass.m; sourceTree = "<group>"; };
 		0103B0892095B34400F4B61B /* CBCurrencyTermsClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCurrencyTermsClass.h; sourceTree = "<group>"; };
+		012A8ED420B518DC00B094F4 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		0103B0622095B31800F4B61B /* DecimalTool */ = {
 			isa = PBXGroup;
 			children = (
+				012A8ED320B518DC00B094F4 /* CBCurrencyResourse */,
 				0103B0872095B34400F4B61B /* CBCurrencyTermsClass */,
 				0103B0632095B31800F4B61B /* AppDelegate.h */,
 				0103B0642095B31800F4B61B /* AppDelegate.m */,
@@ -114,6 +117,14 @@
 				0103B0892095B34400F4B61B /* CBCurrencyTermsClass.h */,
 			);
 			path = CBCurrencyTermsClass;
+			sourceTree = "<group>";
+		};
+		012A8ED320B518DC00B094F4 /* CBCurrencyResourse */ = {
+			isa = PBXGroup;
+			children = (
+				012A8ED420B518DC00B094F4 /* dog.jpg */,
+			);
+			path = CBCurrencyResourse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012A8ED520B518DC00B094F4 /* dog.jpg in Resources */,
 				0103B0702095B31800F4B61B /* LaunchScreen.storyboard in Resources */,
 				0103B06D2095B31800F4B61B /* Assets.xcassets in Resources */,
 				0103B06B2095B31800F4B61B /* Main.storyboard in Resources */,
