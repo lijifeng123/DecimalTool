@@ -31,7 +31,7 @@ git push origin --delete tag $currentTag
 
 git tag -d $currentTag
 
-git tag "$currentTag"
+git tag $currentTag
 
 git push --tag
 
