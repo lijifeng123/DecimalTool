@@ -21,7 +21,7 @@ else
 tempbarch="develop"
 fi
 
-currentTag = 1.3.5
+currentTag = "1.3.5"
 
 git pull origin $tempbarch
 
